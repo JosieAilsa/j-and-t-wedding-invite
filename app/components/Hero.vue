@@ -31,7 +31,7 @@
           <span>Tunnels Beaches,</span>
           <span>Ilfracombe Devon</span>
         </h4>
-        <img src="/assets/tom&jos.svg" class="hero__img" />
+        <v-img src="/assets/surfers.png" class="hero__img" />
         <v-btn variant="outlined"> RSVP NOW</v-btn>
       </v-col>
     </v-row>

@@ -41,7 +41,7 @@
                 <v-img
                   :width="120"
                   class="text-center"
-                  src="/assets/guests-1.svg"
+                  src="/assets/guests-1.png"
                   alt="Wedding couple illustration"
                 />
               </div>
