@@ -2,12 +2,6 @@
   <v-container fluid>
     <v-row justify="center" class="mb-2">
       <v-col cols="12" md="8" lg="6">
-        <h1
-          class="display-1 font-weight-bold brown--text text--darken-4 text-center mb-8"
-        >
-          The Details
-        </h1>
-
         <section class="venue-section mb-8">
           <h2 class="headline font-weight-bold brown--text text--darken-3 mb-4">
             Where
@@ -72,7 +66,9 @@
         <h1
           class="display-1 font-weight-bold brown--text text--darken-4 text-center mb-8"
         >
-          Travel & Stay
+          Travel
+          <span class="and"> & </span>
+          Stay
         </h1>
 
         <section class="getting-there mb-8">
@@ -139,8 +135,7 @@
           </p>
 
           <p class="body-1 brown--text text--darken-2 mb-4">
-            We especially recommend Croyde — a cute village with thatched
-            cottages, a gorgeous beach, and a laid-back surfer vibe.
+            Croyde, a quaint village with thatched cottages, a great surf beach and a few cosy pubs - is our personal favourite!
           </p>
 
           <p class="body-1 brown--text text--darken-2">
@@ -154,5 +149,4 @@
 
 <script lang="ts" setup></script>
 
-<style>
-</style>
+<style></style>
