@@ -20,9 +20,9 @@
     <v-parallax
       v-if="isAuthenticated"
       class="fill-height"
-      src="./assets/main-bg.png"
+      src="./assets/main-bg-desktop.png"
     >
-      <v-sheet color="transparent">
+      <v-sheet color="transparent" class="fill-height">
         <v-navigation-drawer
           v-model="drawer"
           color="surface"
@@ -55,11 +55,22 @@
           :app-menu-items="appMenuItems"
           @drawer-is-open-closed="drawer = !drawer"
         />
-        <v-main>
+        <v-main class="fill-height">
           <NuxtPage />
         </v-main>
       </v-sheet>
     </v-parallax>
+    <v-footer v-if="isAuthenticated">
+      <v-col justify="center" align="center">
+          <p>
+            Designed by Tom.
+          </p>
+          <p>
+            Built by Jose.
+          </p>
+          <v-icon icon="mdi-heart" />
+      </v-col>
+    </v-footer>
   </v-app>
 </template>
 
@@ -67,8 +78,6 @@
 import { useDisplay } from "vuetify";
 import bgDesktop from "./assets/pword-bg.png";
 import bgMobile from "./assets/pword-bg-mobile.png";
-import bgMain from "./assets/main-bg.png";
-
 const { mobile } = useDisplay();
 const drawer = ref(false);
 
@@ -97,13 +106,13 @@ const appMenuItems = [
   --header-font: "Afacad" !important;
   --body-font: "Cormorant Garamond" !important;
   font-family: var(--header-font);
-  p,
-  h3 {
-    font-family: var(--body-font);
-  }
-  .and {
-    font-family: var(--body-font);
-    font-style: italic;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--header-font) !important;
   }
 }
 </style>
