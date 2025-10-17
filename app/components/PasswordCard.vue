@@ -13,7 +13,7 @@
     </v-card-title>
     <v-card-subtitle>
       <h2 class="font-italic font-weight-light text-center password__date">
-        August 9th 2026, Tunnels Beaches
+        August 9th 2026
       </h2>
     </v-card-subtitle>
     <v-card-text>
