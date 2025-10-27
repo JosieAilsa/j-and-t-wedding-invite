@@ -147,7 +147,7 @@
         <section class="staying-elsewhere">
           <h2 class="headline font-weight-bold mb-4">Staying elsewhere</h2>
           <v-row class="pb-0">
-            <v-col cols="8" md="8" align-self="center">
+            <v-col cols="12" md="8" align-self="center">
               <p class="body-1 mb-4">
                 If you'd like to make more of a trip out of your stay,
                 Woolacombe and Saunton both offer stunning beaches and dramatic
