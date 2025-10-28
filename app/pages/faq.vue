@@ -39,18 +39,28 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "What should I wear?",
-    answer: "Normal wedding occasion wear!",
+    answer: "Formal wedding occasion wear. We suggest bringing an extra pair of shoes or just going barefoot on the beach.",
   },
   {
     question: "Will anyone be going for a swim?",
     answer:
-      "The wedding venue has it own private tidal pools. We suggest bringing a towel and swimwear in case you'd like a dip on the day!",
+    "The wedding venue has it own private tidal pools. We suggest bringing a towel and swimwear in case you'd like a dip on the day!",
+  },
+  {
+    question: "Does the venue have a cloakroom", 
+    answer: "IDC we need to check???"
   },
   {
     question: "What about wedding gifts? ",
     answer: `Given we're asking all our guests to travel to rural North Devon (we know it's a pain in the arse),
     <strong> we aren't asking for any wedding gifts!</strong>
     If you would like, you can give us something toward honeymoon <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">here</a>.`,
+  },
+  {
+    question: "Should I bring my kids?",
+    answer:
+      "We'd love for your children to join! The venue also provides a games room with a games console for older children to use during the day.",
+    imageWidth: 120,
   },
   {
     question: "Can I bring my dog?",
