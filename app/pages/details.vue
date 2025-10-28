@@ -7,7 +7,10 @@
 
           <p class="body-1 mb-4">
             We're getting married at
-            <NuxtLink external to="https://tunnelsbeaches.co.uk/weddings.html"
+            <NuxtLink
+              target="blank"
+              external
+              to="https://tunnelsbeaches.co.uk/weddings.html"
               >Tunnels Beaches
             </NuxtLink>
             a unique venue built into Ilfracombe's cliffs and accessed through
@@ -136,7 +139,7 @@
           <v-row>
             <v-col>
               <p class="body-1 mb-4">
-                Beyond that, Ilfracombe plenty of B&Bs and holiday homes to suit
+                Beyond that, Ilfracombe has plenty of B&Bs and holiday homes to suit
                 different budgets. Because it's August and the town gets busy,
                 we recommend booking your accommodation as soon as possible.
               </p>
