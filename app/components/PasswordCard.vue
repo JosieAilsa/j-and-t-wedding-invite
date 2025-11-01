@@ -38,6 +38,7 @@
     <v-card-actions>
       <v-btn
         variant="flat"
+        class="password__btn"
         color="#2E3738"
         size="large"
         block
@@ -118,6 +119,11 @@ const clearError = () => {
   &__welcome {
     font-family: var(--body-font);
     font-style: italic;
+  }
+  .v-btn {
+    &__content {
+      font-family: var(--header-font) !important;
+    }
   }
 }
 </style>
