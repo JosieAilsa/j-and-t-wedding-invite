@@ -1,14 +1,5 @@
 <template>
   <v-container fluid class="rsvp">
-    <v-row>
-      <v-col justify="center">
-        <h1 class="text-center">RSVP</h1>
-        <p class="text-center">
-          Kindly RSVP by 1/04/2026, as that's when we'll be closing our guest
-          list.
-        </p>
-      </v-col>
-    </v-row>
     <div class="form-wrapper">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSc-npJRoR6B5v1AkcYRK99y7-PpzKzzHzgufuX7Wf1LupIq8Q/viewform?embedded=true"
