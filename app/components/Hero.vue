@@ -1,5 +1,5 @@
 <template>
-  <v-container class="hero d-flex flex-column">
+  <v-container class="hero d-flex flex-column h-screen">
     <v-row>
       <v-col>
         <h1
@@ -34,10 +34,12 @@
           <span>Ilfracombe Devon</span>
         </h4>
         <v-img src="/assets/surfers.png" class="hero__img" />
-        <v-btn variant="outlined"> RSVP NOW</v-btn>
+        <NuxtLink to="/rsvp">
+          <v-btn variant="outlined"> RSVP NOW </v-btn>
+        </NuxtLink>
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="pb-2 pt-2">
       <v-divider></v-divider>
     </v-row>
     <v-row>

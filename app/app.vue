@@ -22,7 +22,7 @@
       class="fill-height"
       src="./assets/main-bg-desktop.png"
     >
-      <v-sheet color="transparent" class="fill-height">
+      <v-sheet color="transparent">
         <v-navigation-drawer
           v-model="drawer"
           color="surface"
@@ -57,20 +57,20 @@
         />
         <v-main class="fill-height">
           <NuxtPage />
+          <v-footer v-if="isAuthenticated">
+            <v-col justify="center" align="center">
+                <p>
+                  Designed by Tom.
+                </p>
+                <p>
+                  Built by Jose.
+                </p>
+                <v-icon icon="mdi-heart" />
+            </v-col>
+          </v-footer>
         </v-main>
       </v-sheet>
     </v-parallax>
-    <v-footer v-if="isAuthenticated">
-      <v-col justify="center" align="center">
-          <p>
-            Designed by Tom.
-          </p>
-          <p>
-            Built by Jose.
-          </p>
-          <v-icon icon="mdi-heart" />
-      </v-col>
-    </v-footer>
   </v-app>
 </template>
 

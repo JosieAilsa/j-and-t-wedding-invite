@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container class="h-screen">
     <v-row class="mt-4 mb-2">
       <v-col justify="center" align="center">
         <h1>FAQs</h1>
