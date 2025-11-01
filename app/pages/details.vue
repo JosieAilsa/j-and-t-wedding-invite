@@ -11,9 +11,8 @@
               target="blank"
               external
               to="https://tunnelsbeaches.co.uk/weddings.html"
-              >Tunnels Beaches
-            </NuxtLink>
-            a unique venue built into Ilfracombe's cliffs and accessed through
+              >Tunnels Beaches,</NuxtLink>
+             a unique venue built into Ilfracombe's cliffs and accessed through
             hand-carved tunnels dating back to the 1820s.
             <br />
             <br />The venue has a private beach for all our guests to use during

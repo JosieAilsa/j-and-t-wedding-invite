@@ -3,7 +3,7 @@
     <v-row class="mt-4">
       <v-col justify="center" align="center">
         <h1>Order of the Day</h1>
-        <h2 class="order__highlight-text pb-2">Sunday 9th August</h2>
+        <h3 class="order__highlight-text pb-2">Sunday 9th August</h3>
         <p> May be subject to change </p>
       </v-col>
     </v-row>
@@ -46,7 +46,7 @@
       </v-col>
     </v-row>
     <v-img
-      :height="180"
+      :height="120"
       class="text-center"
       src="/assets/bridesmaids.png"
       alt="Wedding couple illustration"
@@ -58,9 +58,9 @@
       <v-col justify="center" align="center">
         <h3>Wedding Breakfast</h3>
         <p class="order__highlight-text"><strong>4:30pm</strong></p>
-        <p>A relaxed barbecue mezze, with plenty of vegan and veggie options</p>
+        <p>A relaxed barbecue mezze, with plenty of vegan and veggie options.</p>
         <v-img
-          :width="150"
+          :width="100"
           class="text-center pb-2 pt-3"
           src="/assets/wedding-breakfast.png"
           alt="Wedding couple illustration"
@@ -77,7 +77,7 @@
           <strong>6pm</strong>
         </p>
         <v-img
-          :width="120"
+          :width="90"
           class="text-center pb-2 pt-3"
           src="/assets/groomsmen.png"
           alt="Wedding couple illustration"
@@ -104,7 +104,7 @@
           No first dance - it's just not our style!
         </p>
         <v-img
-          :width="150"
+          :width="80"
           class="text-center pb-2 pt-3"
           src="/assets/discoball.png"
           alt="Wedding couple illustration"
@@ -135,13 +135,13 @@
     <v-row justify="center">
       <v-col justify="center" align="center">
         <h3>Carriages</h3>
+        <p class="order__highlight-text"><strong>1am</strong></p>
         <v-img
-          :width="150"
+          :width="100"
           class="text-center"
           src="/assets/bride-and-groom.png"
           alt="Wedding couple illustration"
         />
-        <p class="order__highlight-text"><strong>1am</strong></p>
       </v-col>
     </v-row>
   </v-container>
