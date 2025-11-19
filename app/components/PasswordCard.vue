@@ -17,18 +17,16 @@
       </h2>
     </v-card-subtitle>
     <v-card-text>
-      <p class="text-center">We can't wait to celebrate with you!</p>
+      <h3 class="text-center">Enter the password on your invitation</h3>
     </v-card-text>
     <v-card-actions>
       <v-text-field
         v-model="submittedPassword"
-        label="Enter the password on your invite"
+        label="Enter password"
         variant="outlined"
-        placeholder="Invite password"
         type="password"
-        clearable
         color="surface"
-        bg-color="surface"
+        clearable
         :error="hasError"
         :error-messages="errorMessage"
         @keyup.enter="onSubmit"
@@ -39,14 +37,14 @@
       <v-btn
         variant="flat"
         class="password__btn"
-        color="#2E3738"
+        color="#251F1F"
         size="large"
         block
         :loading="isLoading"
         :disabled="!submittedPassword"
         @click="onSubmit"
       >
-        Unlock full website
+        Unlock website
       </v-btn>
     </v-card-actions>
   </v-card>
@@ -123,6 +121,9 @@ const clearError = () => {
   .v-btn {
     &__content {
       font-family: var(--header-font) !important;
+    }
+    .v-btn__overlay {
+      display: none;
     }
   }
 }
