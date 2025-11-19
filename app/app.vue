@@ -59,13 +59,9 @@
           <NuxtPage />
           <v-footer v-if="isAuthenticated">
             <v-col justify="center" align="center">
-                <p>
-                  Designed by Tom.
-                </p>
-                <p>
-                  Built by Jose.
-                </p>
-                <v-icon icon="mdi-heart" />
+              <p>Designed by Tom.</p>
+              <p>Built by Jose.</p>
+              <v-icon icon="mdi-heart" />
             </v-col>
           </v-footer>
         </v-main>
