@@ -73,7 +73,7 @@ const faqs: FAQItem[] = [
   {
     question: "Are children welcome at the wedding?",
     answer:
-      "Yes — children are very welcome at the wedding! When you RSVP, please include their ages so we can make sure there are enough baby seats at the venue. Tunnels Beaches also has a dedicated children’s room designed to keep little ones entertained. It’s a quieter space away from the music and crowd, where parents can take children if they need a break from the party.",
+      "Yes — children are very welcome at the wedding! Tunnels Beaches has a dedicated children’s room designed to keep little ones entertained. It’s a quieter space away from the music and crowd, where parents can take children if they need a break from the party.",
   },
   {
     question: "Can I bring my dog?",
