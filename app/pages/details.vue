@@ -3,8 +3,11 @@
     <v-row justify="center" class="mb-2">
       <v-col cols="12" md="8" lg="6">
         <section class="venue-section mb-8">
+          <h1 class="font-weight-bold text-center mb-3">
+            The Finer Details
+          </h1>
+          <v-divider class="mb-2"></v-divider>
           <h2 class="headline font-weight-bold mb-4">Where</h2>
-
           <p class="body-1 mb-4">
             We're getting married at
             <NuxtLink
@@ -62,14 +65,14 @@
     <v-row justify="center">
       <v-divider></v-divider>
       <v-col cols="12" md="8" lg="6">
-        <h1 class="display-1 font-weight-bold text-center mb-8">
+        <h2 class="font-weight-bold text-center mb-8">
           Travel
           <span class="and"> & </span>
           Stay
-        </h1>
+        </h2>
 
         <section class="getting-there mb-8">
-          <h2 class="headline font-weight-bold mb-4">Getting there</h2>
+          <h3 class="headline font-weight-bold mb-4">Getting there</h3>
           <v-row>
             <v-col cols="7" md="8" :align-self="mobile ? 'center' : 'end'">
               <p class="body-1">
@@ -104,7 +107,7 @@
         </section>
 
         <section class="staying-ilfracombe mb-8">
-          <h2 class="headline font-weight-bold mb-4">Staying in Ilfracombe</h2>
+          <h3 class="headline font-weight-bold mb-4">Staying in Ilfracombe</h3>
           <v-row>
             <v-col cols="4">
               <v-img
