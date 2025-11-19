@@ -1,4 +1,8 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+definePageMeta({
+  pageTransition: false,
+});
+</script>
 <template>
   <v-container class="fill-height fill-width">
     <Hero />
