@@ -11,8 +11,9 @@
               target="blank"
               external
               to="https://tunnelsbeaches.co.uk/weddings.html"
-              >Tunnels Beaches,</NuxtLink>
-             a unique venue built into Ilfracombe's cliffs and accessed through
+              >Tunnels Beaches,</NuxtLink
+            >
+            a unique venue built into Ilfracombe's cliffs and accessed through
             hand-carved tunnels dating back to the 1820s.
             <br />
             <br />The venue has a private beach for all our guests to use during
@@ -105,7 +106,7 @@
         <section class="staying-ilfracombe mb-8">
           <h2 class="headline font-weight-bold mb-4">Staying in Ilfracombe</h2>
           <v-row>
-            <v-col cols="3">
+            <v-col cols="4">
               <v-img
                 :width="150"
                 class="text-center"
@@ -113,7 +114,7 @@
                 alt="Wedding couple illustration"
               />
             </v-col>
-            <v-col align-self="end">
+            <v-col cols="8" align-self="end">
               <p class="body-1 mb-4">
                 There are lots of great places to stay within walking distance
                 of the venue. A couple of the larger hotels nearby include
@@ -138,9 +139,10 @@
           <v-row>
             <v-col>
               <p class="body-1 mb-4">
-                Beyond that, Ilfracombe has plenty of B&Bs and holiday homes to suit
-                different budgets. Because it's August and the town gets busy,
-                we recommend booking your accommodation as soon as possible.
+                Beyond that, Ilfracombe has plenty of B&Bs and holiday homes to
+                suit different budgets. Because it's August and the town gets
+                busy, we recommend booking your accommodation as soon as
+                possible.
               </p>
             </v-col>
           </v-row>
