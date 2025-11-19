@@ -32,6 +32,9 @@ export default defineNuxtConfig({
     },
   },
   css: [],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
   vuetify: {
     moduleOptions: {
       // check https://nuxt.vuetifyjs.com/guide/server-side-rendering.html
