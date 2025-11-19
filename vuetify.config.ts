@@ -18,7 +18,6 @@ export default defineVuetifyConfiguration({
           'on-surface': '#2E3738',
           'on-primary': '#E7DBCB', 
           'on-secondary': '#E7DBCB',
-          'on-tertiary': '#251F1F',
           anchor: '#2E3738',
           // Additional colors from your palette
           accent: '#D5AB6F',
