@@ -57,14 +57,14 @@
         />
         <v-main class="fill-height">
           <NuxtPage />
-          <v-footer v-if="isAuthenticated">
-            <v-col justify="center" align="center">
-              <p>Designed by Tom.</p>
-              <p>Built by Jose.</p>
-              <v-icon icon="mdi-heart" />
-            </v-col>
-          </v-footer>
         </v-main>
+        <v-footer v-if="isAuthenticated">
+          <v-col justify="center" align="center">
+            <p>Designed by Tom.</p>
+            <p>Built by Jose.</p>
+            <v-icon icon="mdi-heart" />
+          </v-col>
+        </v-footer>
       </v-sheet>
     </v-parallax>
   </v-app>
