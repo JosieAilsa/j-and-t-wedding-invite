@@ -39,7 +39,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "What should I wear?",
-    answer: `We’d love for everyone to dress up and keep it smart, but no need for black tie. Think summer celebration vibes — bright colours, fun patterns, and your favourite suit or dress. Comfortable shoes for dancing are always a good idea too!
+    answer: `We’d love for everyone to dress up and keep it smart, but no need for black tie. Comfortable shoes for dancing are always a good idea too!
     <br/>
     <br/>The ceremony will (hopefully!) take place outside overlooking the beach. But don’t worry — if the weather doesn’t play along, we’ve got a backup plan so you’ll stay dry and comfortable.
     <br/>
@@ -52,8 +52,8 @@ const faqs: FAQItem[] = [
   },
   {
     question: "What would you like as a wedding gift?",
-    answer: `Given we're asking all our guests to travel to rural North Devon (we know it's a pain in the arse),
-    <strong>we aren't asking for any wedding gifts!</strong>, If you would like, you can give us something toward honeymoon <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">here</a>.`
+    answer: `Given we're asking all our guests to travel to North Devon (we know it's a pain in the arse),
+    <strong>we aren't asking for any wedding gifts!</strong> If you would like, you can give us something toward honeymoon <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">here</a>.`
   },
   {
     question: "Is there parking at the venue?",
@@ -78,7 +78,7 @@ const faqs: FAQItem[] = [
   {
     question: "Can I bring my dog?",
     answer:
-      "No. The venue only allows 2 dogs at the ceremony - these spots have already been filled (Beetle and Ted will be attending!)",
+      "Afraid not - sorry! The venue only allows 2 dogs at the ceremony - these spots have already been filled (Beetle and Ted will be attending!)",
     image: beetleAndTed,
     imageAlt: "Beetle and Ted",
     imageWidth: 120,
