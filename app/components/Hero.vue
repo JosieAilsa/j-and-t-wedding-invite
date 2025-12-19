@@ -1,5 +1,5 @@
 <template>
-  <v-container class="hero d-flex flex-column h-screen">
+  <v-container class="hero d-flex flex-column">
     <v-row>
       <v-col>
         <h1
