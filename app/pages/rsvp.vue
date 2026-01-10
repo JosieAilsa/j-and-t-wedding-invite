@@ -3,7 +3,6 @@
     <div class="form-wrapper">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSc-npJRoR6B5v1AkcYRK99y7-PpzKzzHzgufuX7Wf1LupIq8Q/viewform?embedded=true"
-        width="640"
         height="1151"
         frameborder="0"
         marginheight="0"

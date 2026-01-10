@@ -1,12 +1,9 @@
 <template>
-  <v-container fluid>
-    <v-row justify="center" class="mb-2">
-      <v-col cols="12" md="8" lg="6">
-        <section class="venue-section mb-8">
-          <h1 class="font-weight-bold text-center mb-3">
-            The Finer Details
-          </h1>
-          <v-divider class="mb-2"></v-divider>
+  <v-container>
+    <v-row justify="center">
+      <v-col cols="12" sm="10" md="8">
+        <section>
+          <h1 class="font-weight-bold text-center">The Details</h1>
           <h2 class="headline font-weight-bold mb-4">Where</h2>
           <p class="body-1 mb-4">
             We're getting married at
@@ -24,57 +21,60 @@
             crossed for sunshine!
           </p>
           <div class="d-flex flex-row">
-            <v-icon icon="mdi-map-marker mr-1" />
+            <v-icon icon="mdi-map-marker" />
             <address class="venue-address body-1 font-weight-medium">
-              Tunnels Beaches, Bath Place, Ilfracombe,<br />
-              Devon, EX34 8AN
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Tunnels+Beaches,+Bath+Place,+Ilfracombe,+Devon,+EX34+8AN"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="venue-address body-1 font-weight-medium"
+              >
+                Tunnels Beaches, Bath Place, Ilfracombe, Devon, EX34 8AN
+              </a>
             </address>
           </div>
         </section>
-
-        <section class="date-section">
-          <v-row align="center">
-            <v-col cols="4" md="3" lg="2" class="text-center">
-              <v-img
-                :width="120"
-                class="text-center"
-                src="/assets/guests-1.png"
-                alt="Wedding couple illustration"
-              />
-            </v-col>
+        <v-row justify="center">
+          <v-col cols="12" md="8" lg="6">
+            <v-img src="/assets/postcard.png" class="hero__img" />
+          </v-col>
+        </v-row>
+        <section>
+          <v-row>
             <v-col>
               <h2 class="headline font-weight-bold mb-4">When</h2>
-
               <p class="body-1">
                 The big day is
                 <time datetime="2026-08-09"
                   ><strong>Sunday 9th August 2026</strong></time
                 >. The ceremony kicks off at
                 <time datetime="13:00"><strong>1:00pm</strong></time
-                >, so we'd love for guests to arrive about an hour beforehand to
-                get settled and enjoy the view before we start.
-                <br />
-                <br />
-                The bar will be open before the ceremony starts.
+                >, so we'd love for guests to arrive about half an hour
+                beforehand to get settled and enjoy the view before we start.
+                The bar will be open for a short period before the ceremony
+                starts
               </p>
             </v-col>
           </v-row>
         </section>
       </v-col>
     </v-row>
+    <v-row class="mt-6 mb-6">
+      <v-col  cols="12" sm="10" md="8">
+        <v-divider thickness="1"></v-divider>
+      </v-col>
+    </v-row>
     <v-row justify="center">
-      <v-divider></v-divider>
-      <v-col cols="12" md="8" lg="6">
-        <h2 class="font-weight-bold text-center mb-8">
+      <v-col  cols="12" sm="10" md="8">
+        <h1 class="font-weight-bold text-center">
           Travel
           <span class="and"> & </span>
           Stay
-        </h2>
-
+        </h1>
         <section class="getting-there mb-8">
           <h3 class="headline font-weight-bold mb-4">Getting there</h3>
           <v-row>
-            <v-col cols="7" md="8" :align-self="mobile ? 'center' : 'end'">
+            <v-col>
               <p class="body-1">
                 Tunnels Beaches is in the center of Ilfracombe. As the wedding
                 is during peak tourist season, we recommend allowing some extra
@@ -82,22 +82,14 @@
                 the day.
               </p>
               <br />
-              <p v-if="mobile">
+              <p>
                 For public transport, simply take a train to Barnstaple station,
                 then catch the direct bus service from there to Ilfracombe
               </p>
             </v-col>
-            <v-col>
-              <v-img
-                :width="120"
-                class="text-center"
-                src="/assets/longboarders.png"
-                alt="Wedding couple illustration"
-              />
-            </v-col>
           </v-row>
-          <v-row v-if="!mobile">
-            <v-col cols="12">
+          <v-row>
+            <v-col>
               <p>
                 For public transport, simply take a train to Barnstaple station,
                 then catch the direct bus service from there to Ilfracombe
@@ -106,18 +98,10 @@
           </v-row>
         </section>
 
-        <section class="staying-ilfracombe mb-8">
+        <section>
           <h3 class="headline font-weight-bold mb-4">Staying in Ilfracombe</h3>
           <v-row>
-            <v-col cols="4">
-              <v-img
-                :width="150"
-                class="text-center"
-                src="/assets/dancing-guests.png"
-                alt="Wedding couple illustration"
-              />
-            </v-col>
-            <v-col cols="8" align-self="end">
+            <v-col cols="12" sm="10" md="8" >
               <p class="body-1 mb-4">
                 There are lots of great places to stay within walking distance
                 of the venue. A couple of the larger hotels nearby include
@@ -150,8 +134,7 @@
             </v-col>
           </v-row>
         </section>
-
-        <section class="staying-elsewhere">
+        <section>
           <h2 class="headline font-weight-bold mb-4">Staying elsewhere</h2>
           <v-row class="pb-0">
             <v-col cols="12" md="8" align-self="center">
@@ -168,24 +151,30 @@
                 All are a 20-30 minute drive from Tunnels Beaches.
               </p>
             </v-col>
-            <v-col>
-              <v-img
-                :width="150"
-                class="text-center"
-                src="/assets/dancing-guest.png"
-                alt="Wedding couple illustration"
-              />
-            </v-col>
           </v-row>
+        </section>
+      </v-col>
+    </v-row>
+    <v-row justify="center">
+      <v-col  cols="12" sm="10" md="8">
+        <v-divider class="mb-2 mt-2"></v-divider>
+      </v-col>
+    </v-row>
+    <v-row justify="center">
+      <v-col  cols="12" sm="10" md="8">
+        <section>
+          <h2 class="font-weight-bold text-center mb-5">Wedding Gifts</h2>
+          <p class="body-1 mb-4">
+            Given we're asking all our guests to travel to North Devon (we know
+            it's a pain in the arse),
+            <strong>we aren't asking for any wedding gifts!</strong> If you
+            would like, you can give us something toward honeymoon
+            <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">
+              here</a
+            >.
+          </p>
         </section>
       </v-col>
     </v-row>
   </v-container>
 </template>
-<script setup>
-import { useDisplay } from "vuetify";
-
-const { mobile } = useDisplay();
-</script>
-
-<style></style>
