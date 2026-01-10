@@ -10,13 +10,16 @@ defineProps({
 <template>
   <v-app-bar class="nav">
     <v-app-bar-title>
-      <NuxtLink to="/"><img src="/assets/T&J.svg"/></NuxtLink>
+      <NuxtLink to="/">
+        <img src="/assets/T&J.svg" />
+      </NuxtLink>
     </v-app-bar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn
         v-for="item in appMenuItems"
         :key="item.title"
+        variant="flat"
         :to="item.link"
         flat
       >
@@ -24,7 +27,7 @@ defineProps({
       </v-btn>
     </v-toolbar-items>
     <v-btn
-      flat
+      variant="flat"
       class="hidden-md-and-up"
       @click.stop="emit('drawerIsOpenClosed')"
     >
@@ -35,7 +38,7 @@ defineProps({
 <style lang="scss">
 .nav {
   &__icon {
-    color: #1E1E1E;
+    color: #1e1e1e;
   }
 }
 </style>
