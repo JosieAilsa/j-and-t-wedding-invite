@@ -1,12 +1,12 @@
 <template>
   <v-container >
-    <v-row class="mt-4 mb-2">
-      <v-col justify="center" align="center">
+    <v-row justify="center" class="mt-4 mb-2">
+      <v-col justify="center" align="center"  cols="12" sm="10" md="8">
         <h1>FAQs</h1>
       </v-col>
     </v-row>
-    <v-row>
-      <v-col class="h-screen">
+    <v-row justify="center">
+      <v-col class="h-screen"  cols="12" sm="10" md="8">
         <v-expansion-panels bg-color="transparent">
           <v-expansion-panel v-for="(faq, ix) in faqs" :key="ix">
             <v-expansion-panel-title>
