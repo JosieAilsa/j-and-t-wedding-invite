@@ -60,8 +60,10 @@
         </v-main>
         <v-footer v-if="isAuthenticated">
           <v-col justify="center" align="center">
-            <p>Designed by Tom.</p>
-            <p>Built by Jose.</p>
+            <div class="d-flex justify-center">
+              <p class="mr-1">Designed by Tom.</p>
+              <p>Built by Jose.</p>
+            </div>
             <v-icon icon="mdi-heart" />
           </v-col>
         </v-footer>
@@ -97,18 +99,21 @@ const appMenuItems = [
 ];
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .root {
   --header-font: "Afacad" !important;
   --body-font: "Cormorant Garamond" !important;
   font-family: var(--header-font);
-  h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
     font-family: var(--header-font) !important;
+  }
+  h1 {
+    font-family: var(--body-font) !important;
+    font-style: italic;
   }
 }
 .page-enter-active,
