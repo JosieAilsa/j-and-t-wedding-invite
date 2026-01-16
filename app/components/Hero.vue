@@ -47,13 +47,13 @@
         <div
           class="d-flex flex-column align-center justify-center text-center ga-2"
         >
-          <p>We can’t wait to celebrate with all of our favourite people!</p>
           <p>
-            Join us as we say I do, eat, drink and celebrate with us on Devon’s
-            coastline.
+            Join us as we say I do and celebrate on Devon’s
+            coastline
           </p>
+          <p> See you by the sea! </p>
           <p>
-            <strong> Please RSVP by 1st April 2026</strong>
+            <strong> Please RSVP by 15th March 2026</strong>
           </p>
         </div>
       </v-col>
