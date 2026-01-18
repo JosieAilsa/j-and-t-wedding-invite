@@ -4,7 +4,7 @@
       <v-col cols="12" sm="10" md="8">
         <section>
           <h1 class="font-weight-bold text-center">The Details</h1>
-          <h2 class="headline font-weight-bold mb-4">Where</h2>
+          <h2 class="font-weight-bold mb-4">Where</h2>
           <p class="body-1 mb-4">
             We're getting married at
             <NuxtLink
@@ -51,26 +51,25 @@
                 <time datetime="13:00"><strong>1:00pm</strong></time
                 >, so we'd love for guests to arrive about half an hour
                 beforehand to get settled and enjoy the view before we start.
-                The bar will be open for a short period before the ceremony
-                starts
+                The bar will be open for a short period before the ceremony.
               </p>
             </v-col>
           </v-row>
         </section>
       </v-col>
     </v-row>
-    <v-row class="mt-6 mb-6">
-      <v-col  cols="12" sm="10" md="8">
+    <v-row justify="center" class="mt-6 mb-6">
+      <v-col cols="12" sm="10" md="8">
         <v-divider thickness="1"></v-divider>
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col  cols="12" sm="10" md="8">
-        <h1 class="font-weight-bold text-center">
+      <v-col cols="12" sm="10" md="8">
+        <h2 class="font-weight-bold text-center mb-3">
           Travel
           <span class="and"> & </span>
           Stay
-        </h1>
+        </h2>
         <section class="getting-there mb-8">
           <h3 class="headline font-weight-bold mb-4">Getting there</h3>
           <v-row>
@@ -84,25 +83,16 @@
               <br />
               <p>
                 For public transport, simply take a train to Barnstaple station,
-                then catch the direct bus service from there to Ilfracombe
-              </p>
-            </v-col>
-          </v-row>
-          <v-row>
-            <v-col>
-              <p>
-                For public transport, simply take a train to Barnstaple station,
-                then catch the direct bus service from there to Ilfracombe
+                then catch the direct bus service from there to Ilfracombe.
               </p>
             </v-col>
           </v-row>
         </section>
-
         <section>
           <h3 class="headline font-weight-bold mb-4">Staying in Ilfracombe</h3>
           <v-row>
-            <v-col cols="12" sm="10" md="8" >
-              <p class="body-1 mb-4">
+            <v-col>
+              <p class="body-1">
                 There are lots of great places to stay within walking distance
                 of the venue. A couple of the larger hotels nearby include
                 <strong
@@ -123,21 +113,25 @@
               </p>
             </v-col>
           </v-row>
-          <v-row>
+          <v-row class="mb-2">
             <v-col>
               <p class="body-1 mb-4">
                 Beyond that, Ilfracombe has plenty of B&Bs and holiday homes to
                 suit different budgets. Because it's August and the town gets
-                busy, we recommend booking your accommodation as soon as
-                possible.
+                busy, we recommend booking your accommodation soon.
               </p>
             </v-col>
           </v-row>
         </section>
+        <v-row justify="center" class="mt-2 mb-2">
+          <v-col cols="8" md="6" lg="4">
+            <v-img class="text-center" src="/assets/stamps.png" alt="stamps" />
+          </v-col>
+        </v-row>
         <section>
-          <h2 class="headline font-weight-bold mb-4">Staying elsewhere</h2>
+          <h3 class="headline font-weight-bold mb-4">Staying elsewhere</h3>
           <v-row class="pb-0">
-            <v-col cols="12" md="8" align-self="center">
+            <v-col>
               <p class="body-1 mb-4">
                 If you'd like to make more of a trip out of your stay,
                 Woolacombe and Saunton both offer stunning beaches and dramatic
@@ -156,25 +150,44 @@
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col  cols="12" sm="10" md="8">
+      <v-col cols="12" sm="10" md="8">
         <v-divider class="mb-2 mt-2"></v-divider>
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col  cols="12" sm="10" md="8">
+      <v-col cols="12" sm="10" md="8">
         <section>
           <h2 class="font-weight-bold text-center mb-5">Wedding Gifts</h2>
           <p class="body-1 mb-4">
             Given we're asking all our guests to travel to North Devon (we know
             it's a pain in the arse),
-            <strong>we aren't asking for any wedding gifts!</strong> If you
-            would like, you can give us something toward honeymoon
+            <strong> we aren't asking for any wedding gifts</strong> If you
+            would like, you can
             <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">
-              here</a
-            >.
+              give us something towards our honeymoon.
+            </a>
           </p>
         </section>
       </v-col>
     </v-row>
+    <v-row justify="center" class="mt-6 mb-6">
+      <v-col cols="12" sm="10" md="8">
+        <v-divider thickness="1"></v-divider>
+      </v-col>
+    </v-row>
+    <v-row justify="center" class="mt-3 mb-2">
+      <v-col justify="center" align="center" cols="12" sm="10" md="8">
+        <h2 class="mb-5">Things you might ask</h2>
+        <Faq></Faq>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
+<style lang="scss">
+.root {
+  h2,
+  h3 {
+    font-family: var(--body-font) !important;
+  }
+}
+</style>

@@ -13,7 +13,7 @@
     <v-row justify="center">
       <v-col justify="center" align="center">
         <h3>Guests arrive</h3>
-        <p class="order__highlight-text"><strong>12pm</strong></p>
+        <p class="order__highlight-text"><strong>12:30pm</strong></p>
       </v-col>
     </v-row>
     <v-row justify="center">
@@ -126,7 +126,7 @@
     <v-row justify="center">
       <v-col justify="center" align="center">
         <h3>Last orders</h3>
-        <p class="order__highlight-text"><strong>12:30pm</strong></p>
+        <p class="order__highlight-text"><strong>12:30am</strong></p>
       </v-col>
     </v-row>
     <v-row justify="center">
