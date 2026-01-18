@@ -1,32 +1,23 @@
 <template>
-  <v-row justify="center" class="mt-4 mb-2">
-    <v-col justify="center" align="center" cols="12" sm="10" md="8">
-      <h1>Things you might ask</h1>
-    </v-col>
-  </v-row>
-  <v-row justify="center">
-    <v-col class="h-screen" cols="12" sm="10" md="8">
-      <v-expansion-panels bg-color="transparent">
-        <v-expansion-panel v-for="(faq, ix) in faqs" :key="ix">
-          <v-expansion-panel-title>
-            <h3>{{ faq.question }}</h3>
-          </v-expansion-panel-title>
-          <v-expansion-panel-text>
-            <p v-html="faq.answer"></p>
-            <v-row v-if="faq.image">
-              <v-img
-                height="100"
-                :width="faq.imageWidth || 120"
-                class="text-center mt-4"
-                :src="faq.image"
-                :alt="faq.imageAlt || 'FAQ image'"
-              />
-            </v-row>
-          </v-expansion-panel-text>
-        </v-expansion-panel>
-      </v-expansion-panels>
-    </v-col>
-  </v-row>
+  <v-expansion-panels bg-color="transparent">
+    <v-expansion-panel v-for="(faq, ix) in faqs" :key="ix">
+      <v-expansion-panel-title>
+        <h3>{{ faq.question }}</h3>
+      </v-expansion-panel-title>
+      <v-expansion-panel-text>
+        <p v-html="faq.answer"></p>
+        <v-row v-if="faq.image">
+          <v-img
+            height="100"
+            :width="faq.imageWidth || 120"
+            class="text-center mt-4"
+            :src="faq.image"
+            :alt="faq.imageAlt || 'FAQ image'"
+          />
+        </v-row>
+      </v-expansion-panel-text>
+    </v-expansion-panel>
+  </v-expansion-panels>
 </template>
 <script lang="ts" setup>
 import beetleAndTed from "@/assets/beetle-and-ted.png";
