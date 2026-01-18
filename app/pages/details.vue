@@ -65,7 +65,7 @@
     </v-row>
     <v-row justify="center">
       <v-col cols="12" sm="10" md="8">
-        <h2 class="font-weight-bold text-center">
+        <h2 class="font-weight-bold text-center mb-3">
           Travel
           <span class="and"> & </span>
           Stay
@@ -123,6 +123,11 @@
             </v-col>
           </v-row>
         </section>
+        <v-row justify="center" class="mt-2 mb-2">
+          <v-col cols="8" md="6" lg="4">
+            <v-img class="text-center" src="/assets/stamps.png" alt="stamps" />
+          </v-col>
+        </v-row>
         <section>
           <h3 class="headline font-weight-bold mb-4">Staying elsewhere</h3>
           <v-row class="pb-0">
@@ -156,7 +161,7 @@
           <p class="body-1 mb-4">
             Given we're asking all our guests to travel to North Devon (we know
             it's a pain in the arse),
-            <strong> we aren't asking for any wedding gifts.</strong> If you
+            <strong> we aren't asking for any wedding gifts</strong> If you
             would like, you can
             <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">
               give us something towards our honeymoon.
@@ -170,7 +175,12 @@
         <v-divider thickness="1"></v-divider>
       </v-col>
     </v-row>
-    <Faq></Faq>
+    <v-row justify="center" class="mt-3 mb-2">
+      <v-col justify="center" align="center" cols="12" sm="10" md="8">
+        <h2 class="mb-5">Things you might ask</h2>
+        <Faq></Faq>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 <style lang="scss">
