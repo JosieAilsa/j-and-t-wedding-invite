@@ -58,13 +58,13 @@
         </section>
       </v-col>
     </v-row>
-    <v-row  justify="center" class="mt-6 mb-6">
-      <v-col  cols="12" sm="10" md="8">
+    <v-row justify="center" class="mt-6 mb-6">
+      <v-col cols="12" sm="10" md="8">
         <v-divider thickness="1"></v-divider>
       </v-col>
     </v-row>
-    <v-row  justify="center" >
-      <v-col  cols="12" sm="10" md="8">
+    <v-row justify="center">
+      <v-col cols="12" sm="10" md="8">
         <h2 class="font-weight-bold text-center">
           Travel
           <span class="and"> & </span>
@@ -90,8 +90,8 @@
         </section>
         <section>
           <h3 class="headline font-weight-bold mb-4">Staying in Ilfracombe</h3>
-          <v-row> 
-            <v-col >
+          <v-row>
+            <v-col>
               <p class="body-1">
                 There are lots of great places to stay within walking distance
                 of the venue. A couple of the larger hotels nearby include
@@ -145,28 +145,39 @@
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col  cols="12" sm="10" md="8">
+      <v-col cols="12" sm="10" md="8">
         <v-divider class="mb-2 mt-2"></v-divider>
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col  cols="12" sm="10" md="8">
+      <v-col cols="12" sm="10" md="8">
         <section>
           <h2 class="font-weight-bold text-center mb-5">Wedding Gifts</h2>
           <p class="body-1 mb-4">
             Given we're asking all our guests to travel to North Devon (we know
             it's a pain in the arse),
-            <strong>we aren't asking for any wedding gifts!</strong> If you
-            would like, you can give us something toward honeymoon
+            <strong> we aren't asking for any wedding gifts.</strong> If you
+            would like, you can
             <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">
-              here</a
-            >.
+              give us something towards our honeymoon.
+            </a>
           </p>
         </section>
       </v-col>
     </v-row>
+    <v-row justify="center" class="mt-6 mb-6">
+      <v-col cols="12" sm="10" md="8">
+        <v-divider thickness="1"></v-divider>
+      </v-col>
+    </v-row>
+    <Faq></Faq>
   </v-container>
 </template>
 <style lang="scss">
-
+.root {
+  h2,
+  h3 {
+    font-family: var(--body-font) !important;
+  }
+}
 </style>

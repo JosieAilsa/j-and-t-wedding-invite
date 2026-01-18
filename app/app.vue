@@ -94,7 +94,7 @@ const handleSuccess = () => {
 const appMenuItems = [
   { title: "Details", link: "details" },
   { title: "Order of the day", link: "day" },
-  { title: "FAQ", link: "faq" },
+  { title: "Contact", link: "contact" },
   { title: "RSVP", link: "rsvp" },
 ];
 </script>
