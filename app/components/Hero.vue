@@ -28,7 +28,7 @@
             <v-col>TOM <span class="hero__and"> & </span> JOSIE</v-col>
           </v-row>
         </h2>
-        <h3 class="hero__date">Sunday, 9th August 2026</h3>
+        <h3 class="hero__date">Sunday, 9 August 2026</h3>
         <h4 class="d-flex flex-column hero__location">
           <span>Tunnels Beaches,</span>
           <span>Ilfracombe Devon</span>
@@ -53,7 +53,7 @@
           </p>
           <p> See you by the sea! </p>
           <p>
-            <strong> Please RSVP by 15th March 2026</strong>
+            <strong> Please RSVP by 15 March 2026</strong>
           </p>
         </div>
       </v-col>

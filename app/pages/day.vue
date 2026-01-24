@@ -3,7 +3,7 @@
     <v-row class="mt-4">
       <v-col justify="center" align="center">
         <h1>Order of the Day</h1>
-        <h3 class="order__highlight-text pb-2">Sunday 9th August</h3>
+        <h3 class="order__highlight-text pb-2">Sunday 9 August</h3>
         <p> May be subject to change </p>
       </v-col>
     </v-row>

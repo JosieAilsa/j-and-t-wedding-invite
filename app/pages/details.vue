@@ -46,12 +46,10 @@
               <p class="body-1">
                 The big day is
                 <time datetime="2026-08-09"
-                  ><strong>Sunday 9th August 2026</strong></time
+                  ><strong>Sunday 9 August 2026</strong></time
                 >. The ceremony kicks off at
-                <time datetime="13:00"><strong>1:00pm</strong></time
-                >, so we'd love for guests to arrive about half an hour
+                1pm, so please arrive about half an hour
                 beforehand to get settled and enjoy the view before we start.
-                The bar will be open for a short period before the ceremony.
               </p>
             </v-col>
           </v-row>
@@ -75,7 +73,7 @@
           <v-row>
             <v-col>
               <p class="body-1">
-                Tunnels Beaches is in the center of Ilfracombe. As the wedding
+                Tunnels Beaches is in the centre of Ilfracombe. As the wedding
                 is during peak tourist season, we recommend allowing some extra
                 time to ensure a relaxed journey if you're planning to visit on
                 the day.
@@ -159,12 +157,12 @@
         <section>
           <h2 class="font-weight-bold text-center mb-5">Wedding Gifts</h2>
           <p class="body-1 mb-4">
-            Given we're asking all our guests to travel to North Devon (we know
-            it's a pain in the arse),
-            <strong> we aren't asking for any wedding gifts</strong>. If you
-            would like, you can
-            <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">
-              give us something towards our honeymoon.
+            Given we're asking you to travel to North Devon (we know
+            it's a pain),
+            <strong> we aren't asking for any wedding gifts</strong>, but if you
+            would like, we'd be very grateful for any contributions toward our honeymoon, 
+            which <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">
+              you can send over here.
             </a>
           </p>
         </section>

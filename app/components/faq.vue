@@ -32,21 +32,23 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "What should I wear?",
-    answer: `We’d love for everyone to dress up and keep it smart, but no need for black tie.
+    answer: `We'd love for you to wear something you feel comfortable and confident in. 
+    The overall feel is smart - think suits and dresses - no jeans and trainers please! 
     <br/>
-    <br/>The ceremony will (hopefully!) take place outside overlooking the beach. But don’t worry — if the weather doesn’t play along, we’ve got a backup plan so you’ll stay dry and comfortable.
+    <br/>We hope the ceremony will take place outside overlooking the beach. 
+    But don’t worry — if the weather doesn’t play along, we’ve got a back-up plan so you’ll stay dry and can party on.
     <br/>
-    <br/>And because we’re by the sea… feel free to bring your swimsuit (yes, seriously!). There may be a chance for a dip in the evening if you’re feeling adventurous.`,
+    <br/>And because we're by the sea - feel free to bring your swimsuit, towel and beach shoes (yes, seriously!). There may be a chance for a dip in the evening if you’re feeling adventurous.`,
   },
   {
     question: "Will anyone be going for a swim?",
     answer:
-      "The wedding venue has it own private tidal pools. We suggest bringing a towel and swimwear in case you'd like a dip on the day!",
+      "The wedding venue has it own private tidal pools and beach. We suggest bringing a towel and swimwear in case you'd like a dip on the day!",
   },
   {
     question: "Is there parking at the venue?",
     answer: `If you’re staying in the Tunnels Beaches onsite accommodation, you’ll have a parking spot reserved for you (1 spot per room). 
-    For everyone else, there’s plenty of free on-street parking on the roads surrounding the venue — just leave yourself a little extra time to find a space.`,
+    For everyone else, there’s on-street parking on the roads surrounding the venue — just leave yourself a little extra time to find a space.`,
   },
   {
     question: "Is it easy to get a taxi at the end of the evening?",
@@ -61,12 +63,12 @@ const faqs: FAQItem[] = [
   {
     question: "Are children welcome at the wedding?",
     answer:
-      "Yes — children are very welcome at the wedding! Tunnels Beaches has a dedicated children’s room designed to keep little ones entertained. It’s a quieter space away from the music and crowd, where parents can take children if they need a break from the party.",
+      "Yes — of course! Tunnels Beaches has a dedicated children’s room designed to keep little ones entertained.",
   },
   {
     question: "Can I bring my dog?",
     answer:
-      "Afraid not - sorry! The venue only allows 2 dogs at the ceremony - these spots have already been filled (Beetle and Ted will be attending!)",
+      "Afraid not - sorry! The venue only allows 2 dogs at the ceremony - these spots have already been taken by Beetle and Ted.",
     image: beetleAndTed,
     imageAlt: "Beetle and Ted",
     imageWidth: 120,
