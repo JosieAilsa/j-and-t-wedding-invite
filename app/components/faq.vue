@@ -2,10 +2,10 @@
   <v-expansion-panels bg-color="transparent">
     <v-expansion-panel v-for="(faq, ix) in faqs" :key="ix">
       <v-expansion-panel-title>
-        <h3>{{ faq.question }}</h3>
+        <h3 class="font-weight-bold">{{ faq.question }}</h3>
       </v-expansion-panel-title>
       <v-expansion-panel-text>
-        <p v-html="faq.answer"></p>
+        <p class="text-start" v-html="faq.answer"></p>
         <v-row v-if="faq.image">
           <v-img
             height="100"
@@ -32,7 +32,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "What should I wear?",
-    answer: `We’d love for everyone to dress up and keep it smart, but no need for black tie. Comfortable shoes for dancing are always a good idea too!
+    answer: `We’d love for everyone to dress up and keep it smart, but no need for black tie.
     <br/>
     <br/>The ceremony will (hopefully!) take place outside overlooking the beach. But don’t worry — if the weather doesn’t play along, we’ve got a backup plan so you’ll stay dry and comfortable.
     <br/>
