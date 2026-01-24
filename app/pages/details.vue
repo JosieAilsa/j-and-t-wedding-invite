@@ -161,7 +161,7 @@
           <p class="body-1 mb-4">
             Given we're asking all our guests to travel to North Devon (we know
             it's a pain in the arse),
-            <strong> we aren't asking for any wedding gifts</strong> If you
+            <strong> we aren't asking for any wedding gifts</strong>. If you
             would like, you can
             <a href="https://pay.collctiv.com/tom-and-josie-honeymoon-49819">
               give us something towards our honeymoon.
@@ -176,8 +176,8 @@
       </v-col>
     </v-row>
     <v-row justify="center" class="mt-3 mb-2">
-      <v-col justify="center" align="center" cols="12" sm="10" md="8">
-        <h2 class="mb-5">Things you might ask</h2>
+      <v-col justify="start" align="center" cols="12" sm="10" md="8">
+        <h2 class="mb-5 align-self-center">Things you might ask</h2>
         <Faq></Faq>
       </v-col>
     </v-row>
