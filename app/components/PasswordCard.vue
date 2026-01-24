@@ -4,10 +4,10 @@
       <p class="font-italic text-center password__welcome text-body-20">
         Welcome to the wedding of
       </p>
-      <h1 class="text-center">
-        TOM
+      <h1 class="text-center password-names">
+        <span class="password-names__name">TOM</span>
         <span class="password__and"> & </span>
-        JOSIE
+        <span class="password-names__name">JOSIE</span>
       </h1>
       <v-divider class="border-opacity-50"></v-divider>
     </v-card-title>
@@ -111,8 +111,17 @@ const clearError = () => {
 
 <style lang="scss">
 .password {
+  .password-names {
+    &__and {
+      font-family: var(--body-font);
+      font-style: italic;
+    }
+    &__name {
+      font-style: normal;
+      font-family: var(--header-font);
+    }
+  }
   margin-top: 10vh;
-  &__and,
   &__date,
   &__welcome {
     font-family: var(--body-font);
