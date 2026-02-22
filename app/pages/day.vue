@@ -4,7 +4,7 @@
       <v-col justify="center" align="center">
         <h1>Order of the Day</h1>
         <h3 class="order__highlight-text pb-2">Sunday 9 August</h3>
-        <p> May be subject to change </p>
+        <p>Exact times may be subject to change </p>
       </v-col>
     </v-row>
     <v-row justify="center">
